@@ -17,7 +17,7 @@ def main():
     print("Data after filtering:\n",Fdata)
     # print("Number of even elements:",len(Fdata))
 
-    Rdata = reduce(lambda count, _: count + 1,Fdata,0)
+    Rdata = reduce(lambda count, _: 1,Fdata,0)
 
     print(Rdata)
 
