@@ -4,3 +4,4 @@ def CheckPrime(iNo):
             return False
         
     return True
+    
