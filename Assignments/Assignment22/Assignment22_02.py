@@ -11,10 +11,10 @@ class Circle:
         self.Radius = float(input())
 
     def CalculateArea(self):
-        self.Area = self.PI * self.Radius * self.Radius
+        self.Area = Circle.PI * self.Radius * self.Radius
 
     def CalculateCircumference(self):
-        self.Circumference = 2 * (self.PI * self.Radius)
+        self.Circumference = 2 * (Circle.PI * self.Radius)
 
     def Display(self):
         print("Radius:",self.Radius)

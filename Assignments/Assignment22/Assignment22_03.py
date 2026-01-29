@@ -1,5 +1,4 @@
 class Arithmatic:
-    PI = 3.14
 
     def __init__(self):
         self.Value1 = 0
