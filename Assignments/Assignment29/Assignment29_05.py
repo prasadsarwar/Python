@@ -18,7 +18,7 @@ import os
 #         for token in tline:
 #             if token == string:
 #                 iCount = iCount + 1
-
+#     fobj.close()
 #     return iCount
 
 
@@ -42,6 +42,7 @@ def FindOccurance(FName, string):
                 iCount = iCount + 1
 
         Buffer = fobj.readline()
+    fobj.close()
 
     return iCount
 
