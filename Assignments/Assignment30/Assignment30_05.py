@@ -12,11 +12,10 @@ def FindOccurance(FName, string):
     fobj = open(FName,"r")
 
     for line in fobj:
-        # tokens = line.split()
         if string in line:
             Flag = True
             break
-        
+
     fobj.close()
     return Flag
 
